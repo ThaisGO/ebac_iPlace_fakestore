@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F5F6FA;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+}
+
+header {
+    background-color: #3D3D3D;
+}
+
+header > .container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header ul li a{
+    color: #FFFFFF;
+}
+
