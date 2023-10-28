@@ -73,7 +73,7 @@ header ul li a:hover {
     display: grid;
     grid-template-columns: repeat(4, 24%);
     column-gap: 1%;
-    row-gap: 1%;
+    row-gap: 1.5rem;
 }
 
 #produtos img {
@@ -112,6 +112,7 @@ footer {
     color: #C6D30D;
     text-align: center;
     padding: 20px 0;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -136,7 +137,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 49%);
         column-gap: 2%;
-        row-gap: 1%;
+        row-gap: 1.5rem;
     }
 }
 
